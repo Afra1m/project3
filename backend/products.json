@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "Товар 1",
+    "price": "1000",
+    "description": "Описание товара 1",
+    "categories": [
+      "Продукты"
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Товар 2",
+    "price": "2000",
+    "description": "Куртка",
+    "categories": [
+      "Одежда"
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Товар 3",
+    "price": "3000",
+    "description": "Шапка",
+    "categories": [
+      "Одежда"
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Товар 4",
+    "price": "4000",
+    "description": "Шубы",
+    "categories": [
+      "Одежда"
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Товар 5",
+    "price": "500000",
+    "description": "СУПЕРПУПЕРПК",
+    "categories": [
+      "Электроника"
+    ]
+  }
+]
