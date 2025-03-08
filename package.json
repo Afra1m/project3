@@ -1,0 +1,15 @@
+{
+  "name": "project3",
+  "version": "1.0.0",
+  "description": "project-root/ │ ├── backend/ │   ├── server.js            # Основной сервер для работы с API (порт 3000) │   └── products.json        # JSON с данными о товарах │ ├── admin-panel/ │   ├── index.html           # Главная страница панели администратора │   └── script.js            # Логика взаимодействия с API │ └── README.md                # Инструкции по запуску проекта",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

@@ -1,0 +1,85 @@
+/* Глобальные стили */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2 {
+    color: #4a90e2;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Контейнер для формы и списка товаров */
+.container {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    width: 100%;
+    max-width: 1200px;
+    flex-wrap: wrap;
+}
+
+/* Стили для формы добавления товара */
+
+/* Стили для карточек товара */
+.product-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 5px; /* Маленькое расстояние между карточками */
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    max-width: 280px; /* Уменьшена максимальная ширина */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.product-card h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.product-card p {
+    color: #777;
+    font-size: 16px;
+}
+
+.product-card .price {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+    margin-top: 10px;
+}
+
+/* Отображение списка товаров */
+#product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Сдвигаем товары налево */
+    gap: 10px; /* Маленькое расстояние между карточками */
+    flex: 1;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Панель администратора</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Панель администратора</h1>
+
+<div class="container">
+  <!-- Форма для добавления товара -->
+  <div>
+    <h2>Добавить новый товар</h2>
+    <form id="add-product-form">
+      <label for="name">Название:</label>
+      <input type="text" id="name" required><br><br>
+
+      <label for="price">Цена:</label>
+      <input type="text" id="price" required><br><br>
+
+      <label for="description">Описание:</label>
+      <textarea id="description" required></textarea><br><br>
+
+      <label for="category">Категория:</label>
+      <select id="category" required>
+        <option value="Продукты">Продукты</option>
+        <option value="Одежда">Одежда</option>
+        <option value="Электроника">Электроника</option>
+        <option value="Книги">Книги</option>
+      </select><br><br>
+
+      <button type="submit">Добавить товар</button>
+    </form>
+  </div>
+
+  <!-- Форма для удаления товара (точно такая же, как форма добавления) -->
+  <div>
+    <h2>Удалить товар</h2>
+    <form id="delete-product-form">
+      <label for="delete-id">ID товара для удаления:</label>
+      <input type="text" id="delete-id" required><br><br>
+      <button type="submit">Удалить товар</button>
+    </form>
+  </div>
+</div>
+
+<!-- Список товаров -->
+<div>
+  <h2>Список товаров</h2>
+  <div id="product-list">
+    <!-- Сюда будут добавляться товары -->
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
